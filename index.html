@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- iconos de bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- mi CSS -->
+    <link rel="stylesheet" href="css/estilos.css">
+    <!-- titulo -->
+    <title>PrevengoSalud</title>
+    <!-- icono -->
+    <link rel="icon" type="imagen/X-icon" href="multimedia/Icono.png">
+</head>
+
+<body>
+    <header>
+        <!-- barra de navegacion -->
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
+                    aria-controls="navbar-toggler" aria-expanded="false" aria-label="Toggler navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbar-toggler">
+                    <a class="navbar-brand" href="index.html">
+                        <a src="multimedia/Icono.png" width="70" alt="icono">
+                    </a>
+                    <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="html/nosotros.html">Sobre nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="html/articulos.html">Articulos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="html/especialidades.html">Especialidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="html/contactos.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- seccion de la pagina -->
+    <section class="hero align-items-stretch">
+        <h1>Somos Grupo PreVengo</h1>
+        <h3>Cuidamos tu salud</h3>
+        <div class="hero-principal">
+            <div class="img">
+                <img src="multimedia/imagenheader.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+        </div>
+    </section>
+
+    <!-- seccion nosotros -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+        <div class="contenedor">
+            <h2 class="seccion-titulo">Conoce a Grupo Prevengo</h2>
+            <p class="seccion-texto">"Somos un grupo de médicos enfocados en la salud preventiva. Contamos con las
+                especialidades en Ginecología, Urología, Cirugía General y Oncológica, Cirugía Plástica y
+                Reconstructiva. ¡En PREVENGO SALUD, Cuidamos de tu salud!"</p>
+        </div>
+    </section>
+
+    <!-- Nuestra experiencia -->
+
+    <section class="experiencia seccion-clara">
+        <div class="container text-center">
+            <div class="row">
+                <!-- Misión-->
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-globe2"></i>
+                    <p class="experiencia-titulo">Misión</p>
+                    <p>Brindar a los pacientes servicios de salud de calidad a precios cómodos, logrando así su
+                        bienestar y mejorando su calidad de vida..</p>
+                    <div class="badges-contenedor">
+                        <span class="badge rounded-pill text-bg-info">Calidad</span>
+                        <span class="badge rounded-pill text-bg-info">Bienestar</span>
+                        <span class="badge rounded-pill text-bg-info">Servicio</span>
+                    </div>
+                </div>
+                <!-- Visión -->
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-eye"></i>
+                    <p class="experiencia-titulo">Visión</p>
+                    <p>Ser la clínica privada líder en atenciones médicas especializadas, asegurando salud y calidad de
+                        vida de nuestros pacientes.</p>
+                    <div class="badges-contenedor">
+                        <span class="badge rounded-pill text-bg-info">Especialidad</span>
+                        <span class="badge rounded-pill text-bg-info">Seguridad</span>
+                        <span class="badge rounded-pill text-bg-info">Vida</span>
+                    </div>
+                </div>
+                <!-- Filosofia -->
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-lightbulb"></i>
+                    <p class="experiencia-titulo">Filosofía</p>
+                    <p>La atención de calidad en salud es un derecho para todos, tenga o no un seguro de salud.</p>
+                    <div class="badges-contenedor">
+                        <span class="badge rounded-pill text-bg-info">Salud</span>
+                        <span class="badge rounded-pill text-bg-info">Confianza</span>
+                        <span class="badge rounded-pill text-bg-info">Vocación</span>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Especialidades -->
+    <section id="especialidades" class="especialidades-recientes seccion-clara d-flex flex-column">
+        <h2 class="seccion-titulo texto-negro">Nuestras especialidades</h2>
+        <h3 class="seccion-descripcion">Aqui encontrarás todas nuestras especialidades.</h3>
+        <!-- galeria de proyectos -->
+        <div class="container text-center especialidades-contenedor">
+            <div class="row">
+                <!-- PROYECTO 1 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="especialidad">
+                        <img src="multimedia/especialidad1.jpeg" alt="Especialidad 1">
+                        <div class="overlay">
+                            <p>Radiología</p>
+                            <div class="iconos-contenedor">
+                                <a href="html/especialidades.html" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-heart-pulse"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- PROYECTO 2 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="especialidad">
+                        <img src="multimedia/especialidad2.jpg" alt="Especialidad 2">
+                        <div class="overlay">
+                            <p>Oncologia</p>
+                            <div class="iconos-contenedor">
+                                <a href="html/especialidades.html" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-heart-pulse"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- PROYECTO 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="especialidad">
+                        <img src="multimedia/especialidad3.jpg" alt="Especialidad 3">
+                        <div class="overlay">
+                            <p>Ginecología</p>
+                            <div class="iconos-contenedor">
+                                <a href="html/especialidades.html" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-heart-pulse"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- PROYECTO 4 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="especialidad">
+                        <img src="multimedia/especialidad4.jpg" alt="Especialidad 4">
+                        <div class="overlay">
+                            <p>Urología</p>
+                            <div class="iconos-contenedor">
+                                <a href="html/especialidades.html" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-heart-pulse"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- PROYECTO 5 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="especialidad">
+                        <img src="multimedia/especialidad5.jpg" alt="Especialidad 5">
+                        <div class="overlay">
+                            <p>Cirugía</p>
+                            <div class="iconos-contenedor">
+                                <a href="html/especialidades.html" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-heart-pulse"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- PROYECTO 6 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="especialidad">
+                        <img src="multimedia/especialidad6.jpg" alt="Especialidad 6">
+                        <div class="overlay">
+                            <p>Neurología</p>
+                            <div class="iconos-contenedor">
+                                <a href="html/especialidades.html" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-heart-pulse"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <button type="button" class="btn btn-info">
+                Ver más especialidades
+                <i class="bi bi-arrow-right-square-fill"></i>
+            </button>
+        </a>
+    </section>
+
+    <!-- ARTICULOS -->
+
+    <section class="articulos justify-content-start">
+        <h2 class="seccion-titulo texto-negro">Blog de Salud</h2>
+        <div class="card">
+            <div class="card-header">
+                Entradas mas recientes
+            </div>
+            <ul class="list-group list-group-flush">
+                <a href="https://bluenethospitals.com/blog/radiologia-e-imagen/sabes-lo-que-hace-un-radiologo"
+                    target="_blank" reel="noopener noreferrer">
+                    <li class="list-group-item">¿Sabes lo que hace un Radiólogo?.
+                    </li>
+                </a>
+                <a href="https://www.clinicamedrano.com/la-importancia-de-realizarse-una-revision-ginecologica-anualmente/#:~:text=Gracias%20a%20la%20revisi%C3%B3n%20ginecol%C3%B3gica,en%20una%20fase%20peligrosamente%20avanzada."
+                    target="_blank" reel="noopener noreferrer">
+                    <li class="list-group-item"> La importancia de realizarse una revisión ginecológica.
+                    </li>
+                </a>
+                <a href="https://www.mayoclinic.org/es-es/tests-procedures/cosmetic-surgery/about/pac-20385138"
+                    target="_blank" reel="noopener noreferrer">
+                    <li class="list-group-item">Cirugías estéticas.
+                    </li>
+                </a>
+                <a href="https://dralfonsovega.com/funciones-y-patologias-que-trata-un-neurocirujano/" target="_blank"
+                    reel="noopener noreferrer">
+                    <li class="list-group-item">Funciones y patologías que trata un neurocirujano.
+                    </li>
+                </a>
+                <a href="https://caunet.org/que-es-la-urologia/" target="_blank" reel="noopener noreferrer">
+                    <li class="list-group-item">¿Que es la Urología?
+                    </li>
+                </a>
+            </ul>
+        </div>
+        <a href="html/articulos.html" target="_blank" rel="noopener noreferrer">
+            <button type="button" class="btn btn-info">
+                Vér mas artículos
+                <i class="bi bi-arrow-right-square-fill"></i>
+            </button>
+        </a>
+    </section>
+
+    <!-- TESTIMONIOS -->
+
+    <section id="testimonios" class="testimonios seccion-clara">
+        <h2 class="seccion-titulo">Testimonios</h2>
+        <h3 class="seccion-descripcion">Estos son algunos testimonios de nuestros clientes</h3>
+
+        <!-- carrusel -->
+
+        <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <img class="testimonio-imagen rounded-circle" src="multimedia/testimonio1.jpg"
+                            alt="Testimonio 1 Gino">
+                        <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+                            totam hic illo
+                            tenetur quo quae tempore officia. Dolorem harum non, itaque placeat incidunt perspiciatis
+                            tempora, odit,
+                            obcaecati dignissimos molestiae sunt!</p>
+                        <div class="testimonio-info">
+                            <p class="paciente">Gino</p>
+                            <p class="area">Paciente de Neurología</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <img class="testimonio-imagen rounded-circle" src="multimedia/testimonio2.jpg"
+                            alt="Testimonio 2 Eva">
+                        <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+                            totam hic illo
+                            tenetur quo quae tempore officia. Dolorem harum non, itaque placeat incidunt perspiciatis
+                            tempora, odit,
+                            obcaecati dignissimos molestiae sunt!</p>
+                        <div class="testimonio-info">
+                            <p class="paciente">Eva</p>
+                            <p class="area">Paciente oncologica</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <img class="testimonio-imagen rounded-circle" src="multimedia/testimonio3.jpg"
+                            alt="Testimonio 3 Peter">
+                        <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+                            totam hic illo
+                            tenetur quo quae tempore officia. Dolorem harum non, itaque placeat incidunt perspiciatis
+                            tempora, odit,
+                            obcaecati dignissimos molestiae sunt!</p>
+                        <div class="testimonio-info">
+                            <p class="paciente">Peter</p>
+                            <p class="area">Paciente de Ginecología</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+        <div class="container">
+            <div class="container text-center rectangulo d-flex justify-content-evenly">
+                <div class="row">
+                    <div class="col-12 col-md-4 seccion-titulo">
+                        ¡Contactanos!
+                    </div>
+                    <div class="col-12 col-md-4 descripcion">
+                        ¡Agenda tu cita!
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <a href="mailto:anderson.isasis@gmail.com">
+                            <button type="button">
+                                Contacto
+                                <i class="bi bi-envelope-check-fill"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+        <p class="footer-texto text-center">Piensa, sueña,<br>cree y atrévete.</p>
+        <div class="iconos-redes-sociales d-flex flex-wrap aling-items-center justify-content-center">
+            <a href="https://twitter.com/?lang=es" target="_blank " rel="noopener noreferrer">
+                <i class="bi bi-twitter"></i>
+            </a>
+            <a href="https://es-la.facebook.com/" target="_blank " rel="noopener noreferrer">
+                <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://pe.linkedin.com/" target="_blank " rel="noopener noreferrer">
+                <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank " rel="noopener noreferrer">
+                <i class="bi bi-instagram"></i>
+            </a>
+        </div>
+        <div class="derechos-de-autor">Creado por Anderson Gonzalez (2023) &#169;</div>
+    </footer>
+    <!-- JS Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
