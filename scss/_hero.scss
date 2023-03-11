@@ -1,0 +1,21 @@
+/* Sección Hero */
+
+.hero {
+    background-color: #f5f6f7;
+    min-height: 450px;
+    text-align: center;
+}
+
+.hero-principal {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 40px;
+    align-items: center;
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}

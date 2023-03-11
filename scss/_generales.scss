@@ -1,0 +1,77 @@
+/* estilos generales */
+
+@mixin parrafo {
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 0;
+	text-align: center;
+}
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	font-size: 2.5rem;
+	font-family: 'Rubik Dirt', cursive;
+}
+
+.texto-negro {
+	color: black;
+}
+
+.texto-blanco {
+	color: white;
+}
+
+.btn-info {
+	font-size: 1.1rem;
+	margin: 20px;
+}
+
+.bagde-contenedor {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 10px 0;
+}
+.bagde {
+	margin: 5px;
+}
+
+.overlay {
+	transition: all 0.2s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	p {
+		@include parrafo;
+	}
+	.iconos-contenedor {
+		display: flex;
+	}
+	i {
+		color: black;
+		font-size: 60px;
+		margin: 10px;
+	}
+}
+
+.carousel-item {
+	height: 500px;
+	.container {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+}
+
+
+
