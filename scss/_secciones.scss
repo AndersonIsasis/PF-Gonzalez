@@ -119,6 +119,24 @@
     }
 }
 
+/*SECCION ESPECIALIDADES*/
+
+.services .card {
+	padding: 20px;
+	border-radius: 0;
+	border: 2px solid 
+}
+
+.services .card:hover {
+	border: 10px solid;
+	transform: scale(1.01);
+	border-image-slice: 1;
+	border-width: 2px;
+	border-image-source: var(--gradient);
+	box-shadow: 5px 5px 0px 0px #0ee951;
+}
+
+
 /* testimonio */
 .testimonios {
     padding: 40px 40px 80px 40px;
@@ -327,6 +345,26 @@
     }
 }
 
+/* card para planes */
+
+.planes {
+    margin: 50px;
+}
+
+.planes .card {
+	padding: 20px;
+    margin-bottom: 15px;
+	border: 2px solid black;
+}
+
+.para {
+    width: 50%;
+}
+
+.para-light {
+    opacity: 0.7;
+}
+
 /* Card de seccion articulos */
 
 .ex-cards-1 {
@@ -345,3 +383,4 @@
 		font-size: 1rem;
 	}
 }
+

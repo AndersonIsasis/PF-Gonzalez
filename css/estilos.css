@@ -99,7 +99,7 @@ h1 {
 /* Sección Hero */
 .hero {
   background-color: #f5f6f7;
-  min-height: 450px;
+  min-height: 150px;
   text-align: center;
 }
 
@@ -222,6 +222,22 @@ h1 {
 }
 .articulos .card-header {
   font-weight: bold;
+}
+
+/*SECCION ESPECIALIDADES*/
+.services .card {
+  padding: 20px;
+  border-radius: 0;
+  border: 2px solid;
+}
+
+.services .card:hover {
+  border: 10px solid;
+  transform: scale(1.01);
+  border-image-slice: 1;
+  border-width: 2px;
+  border-image-source: var(--gradient);
+  box-shadow: 5px 5px 0px 0px #0ee951;
 }
 
 /* testimonio */
@@ -396,6 +412,25 @@ h1 {
   color: #ffffff;
 }
 
+/* card para planes */
+.planes {
+  margin: 50px;
+}
+
+.planes .card {
+  padding: 20px;
+  margin-bottom: 15px;
+  border: 2px solid black;
+}
+
+.para {
+  width: 50%;
+}
+
+.para-light {
+  opacity: 0.7;
+}
+
 /* Card de seccion articulos */
 .ex-cards-1 .card {
   background-color: transparent;
@@ -412,7 +447,7 @@ h1 {
 
 /* pie de pagina (Footer) */
 footer {
-  min-height: 100px;
+  min-height: 50px;
 }
 
 .footer-logo {

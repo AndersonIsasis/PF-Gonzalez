@@ -12,8 +12,9 @@
     border-radius: 50%;
     transition: all 0.2s ease-in;
 }
+
 footer {
-    min-height: 100px;
+    min-height: 50px;
 }
 
 .footer-logo {
@@ -32,7 +33,7 @@ footer {
 .iconos-redes-sociales {
     a {
         @include iconos;
-        
+
         &:hover {
             background-color: white;
             border: 2px solid rgb(13, 110, 253);
